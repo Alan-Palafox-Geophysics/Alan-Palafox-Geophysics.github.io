@@ -25,10 +25,10 @@ Desarrollé un pipeline end-to-end para la originación de crédito. A diferenci
 
 ## 🛠️ Habilidades Técnicas
 
-* **Lenguajes:** Python (Avanzado), SQL (Intermedio), R (Básico).
-* **Machine Learning:** Regresión Logística, Árboles de Decisión, Random Forest, Clustering.
+* **Lenguajes:** Python (Avanzado), SQL (Avanzado), R, Matab, PySpark.
+* **Machine Learning:** Regresión Logística y Lineal, Árboles de Decisión, Random Forest, Clustering, XGBoost, RNN.
 * **Finanzas/Riesgo:** Scorecards, WoE, IV, VIF, Curva ROC, KS Statistic.
-* **Herramientas:** Git/GitHub, Jupyter Notebooks, Excel Avanzado.
+* **Herramientas:** Git/GitHub, Jupyter Notebooks, Excel Avanzado, Power BI, Looker Studio.
 
 ---
 *Gracias por visitar mi perfil. ¡Siéntete libre de contactarme para oportunidades laborales o colaboraciones!*
