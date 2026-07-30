@@ -31,7 +31,9 @@ A continuación, presento mis desarrollos más destacados enfocados en el área 
   <h3 style="margin-top: 0; color: #155799;">☁️ PMML Executor Cloud: Validación y Contraste Predictivo</h3>
   <p><strong>Tecnologías:</strong> <em>Python, Streamlit, PMML (jpmml-evaluator).</em></p>
   <p>Aplicación en la nube diseñada para la evaluación rigurosa de modelos PMML. Integra extracción de metadatos (logs) y automatiza el contraste predictivo contra las salidas del motor <strong>Power Curve</strong>. El desarrollo resuelve limitaciones por truncamiento mediante la ingesta de variables como <em>strings</em>, logrando cero desviación en el cálculo de Probabilidad de Default (PD).</p>
-  <a href="URL_A_TU_REPOSITORIO_PMML" style="display: inline-block; padding: 10px 20px; background-color: #155799; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver Proyecto Completo ➔</a>
+  <a href="https://github.com/Alan-Palafox-Geophysics/PMML_Executor_Cloud" style="display: inline-block; padding: 10px 20px; background-color: #155799; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver Proyecto Completo ➔</a>
+</div>
+<a href="https://pmmlexecutorcloud-nsjnmvjyvr7appls8avyi8h.streamlit.app/" style="display: inline-block; padding: 10px 20px; background-color: #D13315; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver aplicación Web ➔</a>
 </div>
 
 <!-- Tarjeta del Proyecto 3: MasiveData Generator -->
@@ -39,7 +41,8 @@ A continuación, presento mis desarrollos más destacados enfocados en el área 
   <h3 style="margin-top: 0; color: #155799;">🎲 MasiveData Generator: Simulación para Validación de Riesgos</h3>
   <p><strong>Tecnologías:</strong> <em>Python, Generación de Datos Sintéticos, Estadística Estocástica.</em></p>
   <p>Motor masivo generador de datos sintéticos y aleatorios. Esta herramienta fue construida específicamente para ejecutar pruebas de estrés, evaluación y validación exhaustiva de los desarrollos de parametrías y reglas tácticas de originación dentro de entornos de Riesgo Transformación.</p>
-  <a href="URL_A_TU_REPOSITORIO_MASIVEDATA" style="display: inline-block; padding: 10px 20px; background-color: #155799; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver Proyecto Completo ➔</a>
+  <a href="https://github.com/Alan-Palafox-Geophysics/MasiveData_Generator" style="display: inline-block; padding: 10px 20px; background-color: #155799; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver Proyecto Completo ➔</a>
+  <a href="https://masivedatagenerator-woufntytdrjxup362vkkev.streamlit.app/" style="display: inline-block; padding: 10px 20px; background-color: #D13315; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver aplicación Web ➔</a>
 </div>
 
 ---
