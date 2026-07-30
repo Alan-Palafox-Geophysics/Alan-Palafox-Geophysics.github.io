@@ -23,7 +23,7 @@ A continuación, presento mis desarrollos más destacados enfocados en el área 
   <h3 style="margin-top: 0; color: #155799;">💳 Credit Risk Scoring Pipeline: De Datos Crudos a Scorecard</h3>
   <p><strong>Tecnologías:</strong> <em>Python, Pandas, Statsmodels, Scikit-Learn, Optbinning.</em></p>
   <p>Desarrollo de un pipeline end-to-end para la originación de crédito. A diferencia de un modelo de "caja negra", construí una Regresión Logística basada en <strong>Weight of Evidence (WoE)</strong> que cumple con normativas financieras. El modelo calcula el umbral óptimo usando el estadístico Kolmogorov-Smirnov (KS) y culmina en una <strong>Tarjeta de Puntuación (Scorecard)</strong> lista para reglas de negocio.</p>
-  <a href="proyecto-riesgo.md" style="display: inline-block; padding: 10px 20px; background-color: #155799; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver Proyecto Completo ➔</a>
+  <a href="proyecto-riesgo" style="display: inline-block; padding: 10px 20px; background-color: #155799; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ver Proyecto Completo ➔</a>
 </div>
 
 <!-- Tarjeta del Proyecto 2: PMML Executor Cloud -->
