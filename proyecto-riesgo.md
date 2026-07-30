@@ -49,6 +49,5 @@ El modelo se evaluó utilizando métricas exigidas por la regulación de Basilea
 
 ## 🚀 Cómo ejecutar este proyecto
 
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu_usuario/tu_repositorio_credito.git](https://github.com/tu_usuario/tu_repositorio_credito.git)
+1. > 💻 **¿Quieres ver el código, descargar el dataset y clonar este proyecto?** 
+> 👉 [**Haz clic aquí para ir al repositorio oficial en GitHub**](https://github.com/Alan-Palafox-Geophysics/Credit_Scoring)
