@@ -1,54 +1,43 @@
 # Alan-Palafox
 
-# 💳 Credit Risk Scorecard: End-to-End Pipeline
+# Hola, soy [Tu Nombre] 👋
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Data Science](https://img.shields.io/badge/Domain-Credit_Risk-success.svg)
-![Machine Learning](https://img.shields.io/badge/Model-Logistic_Regression-orange.svg)
+**Data Scientist | Analista de Riesgo | Apasionado por el Machine Learning Explicable**
 
-## 📌 Descripción del Proyecto
-Este repositorio contiene un pipeline completo para la construcción de un modelo de riesgo crediticio (Credit Scoring). A diferencia de los modelos de "caja negra", este proyecto implementa una metodología estándar de la industria bancaria basada en **Weight of Evidence (WoE)** y **Regresión Logística**, culminando en la generación de una **Tarjeta de Puntuación (Scorecard)** explicable y lista para reglas de negocio.
+Bienvenido a mi portafolio digital. Aquí documento mis proyectos más importantes aplicando ciencia de datos, estadística y programación para resolver problemas de negocio reales.
 
-## 🏗️ Arquitectura y Buenas Prácticas
-Para garantizar la escalabilidad y el pase a producción, el código no está aglomerado en un solo script. Se utilizó un Jupyter Notebook como **orquestador**, delegando la lógica compleja a módulos independientes en Python:
+* 📍 Ubicación: [Tu Ciudad/País]
+* ✉️ Email: [tu-correo@email.com]
+* 🔗 [Mi perfil de LinkedIn](https://linkedin.com/in/tu-perfil)
 
-| Archivo / Módulo | Descripción de su Función |
-| :--- | :--- |
-| 📓 `Main_Pipeline.ipynb` | Orquestador principal. Carga datos, llama a los módulos y visualiza resultados. |
-| 🐍 `EDA_module.py` | Análisis Exploratorio de Datos, análisis de distribuciones y correlaciones. |
-| 🐍 `preprocessing_vars.py` | Limpieza de datos, imputación de nulos y tratamiento de variables temporales. |
-| 🐍 `credit_data_processing.py` | Optimización de memoria, cálculo de WoE, Information Value (IV) y escalado del Scorecard. |
+---
 
-## ⚙️ Metodología y Desarrollo
+## 🚀 Proyectos Destacados
 
-### 1. Preprocesamiento y Optimización
-* **Optimización de Memoria:** Reducción del peso del dataset en RAM mediante *downcasting* dinámico de tipos numéricos.
-* **Feature Engineering:** Tratamiento de fechas (ej. `issue_d`), manejo de outliers y creación de la variable objetivo (Buen/Mal pagador).
+### 1. 💳 Credit Risk Scoring Pipeline: De Datos Crudos a Scorecard
+**Tecnologías:** Python, Pandas, Statsmodels, Scikit-Learn, Optbinning.
 
-### 2. Selección Rigurosa de Variables (Feature Selection)
-Se implementó un embudo estadístico para garantizar la robustez del modelo y evitar sobreajuste:
-1. **Information Value (IV):** Filtrado de variables con bajo poder predictivo.
-2. **Análisis de Correlación:** Eliminación de variables altamente correlacionadas.
-3. **Variance Inflation Factor (VIF):** Detección y mitigación de multicolinealidad.
-4. **P-Values:** Retención exclusiva de variables estadísticamente significativas (p-value < 0.05) usando `statsmodels`.
+Desarrollé un pipeline end-to-end para la originación de crédito. A diferencia de un modelo de "caja negra", construí una Regresión Logística basada en **Weight of Evidence (WoE)** que cumple con normativas financieras. El modelo calcula el umbral óptimo usando el estadístico Kolmogorov-Smirnov (KS) y culmina en una **Tarjeta de Puntuación (Scorecard)** lista para ser utilizada por el área de negocio.
 
-### 3. Modelado y Generación del Scorecard
-Se entrenó una Regresión Logística utilizando las variables transformadas a WoE. Posteriormente, los coeficientes del modelo se tradujeron a puntos de negocio utilizando los siguientes parámetros estándar de la industria:
+👉 [**Ver la explicación completa del Proyecto Aquí**](proyecto-riesgo.md)
 
-| Parámetro del Scorecard | Valor Configurado |
-| :--- | :--- |
-| **Base Score (Target Score)** | 600 puntos |
-| **Points to Double the Odds (PDO)** | 25 puntos |
-| **Target Odds** | (Configurable según el apetito de riesgo) |
+---
 
-## 📊 Resultados y Evaluación
-El modelo se evaluó utilizando métricas exigidas por la regulación de Basilea y las mejores prácticas de riesgo:
-* **Curva ROC y AUC:** Para medir la capacidad general de discriminación del modelo.
-* **Estadístico Kolmogorov-Smirnov (KS):** Calculado programáticamente para encontrar el punto máximo de separación (cutoff) entre la distribución de buenos y malos clientes.
-* **Índice Gini:** Como medida de desigualdad y concentración de riesgo.
+### 2. [Nombre de tu segundo proyecto, ej. Análisis de Ventas en PowerBI]
+**Tecnologías:** SQL, PowerBI, DAX.
 
-## 🚀 Cómo ejecutar este proyecto
+[Una breve descripción de dos líneas sobre qué problema resolviste y qué lograste. Ejemplo: "Creación de un dashboard interactivo que redujo el tiempo de reporte mensual en un 40%..."]
 
-1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu_usuario/tu_repositorio_credito.git](https://github.com/tu_usuario/tu_repositorio_credito.git)
+👉 [**Ver el Proyecto Completo Aquí**](https://link-a-tu-segundo-proyecto.com)
+
+---
+
+## 🛠️ Habilidades Técnicas
+
+* **Lenguajes:** Python (Avanzado), SQL (Intermedio), R (Básico).
+* **Machine Learning:** Regresión Logística, Árboles de Decisión, Random Forest, Clustering.
+* **Finanzas/Riesgo:** Scorecards, WoE, IV, VIF, Curva ROC, KS Statistic.
+* **Herramientas:** Git/GitHub, Jupyter Notebooks, Excel Avanzado.
+
+---
+*Gracias por visitar mi perfil. ¡Siéntete libre de contactarme para oportunidades laborales o colaboraciones!*
