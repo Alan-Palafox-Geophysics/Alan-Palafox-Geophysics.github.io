@@ -1,4 +1,6 @@
-# Hola, soy ALAN VLADIMIR PALAFOX GARDUÑO 👋
+# ALAN VLADIMIR PALAFOX GARDUÑO
+
+# Hola, soy ALAN PALAFOX 👋
 
 **Data Scientist | Analista de Riesgo | Apasionado por el Machine Learning Explicable**
 
